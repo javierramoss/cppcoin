@@ -4,3 +4,6 @@
 [submodule "lib/hash-library"]
 	path = lib/hash-library
 	url = https://github.com/stbrumme/hash-library.git
+[submodule "lib/json"]
+	path = lib/json
+	url = https://github.com/nlohmann/json.git
