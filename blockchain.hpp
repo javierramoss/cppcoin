@@ -7,7 +7,7 @@
 #include <ctime>
 #include <string>
 #include "./lib/json/single_include/nlohmann/json.hpp"
-#include "block.cpp"
+#include "block.hpp"
 
 using json = nlohmann::json;
 

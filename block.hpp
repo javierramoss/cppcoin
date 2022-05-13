@@ -1,8 +1,8 @@
 #ifndef BLOCK_HPP
 #define BLOCK_HPP
 
-#include "./lib/hash-library/sha256.cpp"
-#include "transaction.cpp"
+#include "transaction.hpp"
+#include <vector>
 
 class Block {
 private:

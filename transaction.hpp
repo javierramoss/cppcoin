@@ -1,9 +1,10 @@
 #ifndef TRANSACTION_HPP
 #define TRANSACTION_HPP
 
-//#include <iostream>
+#include <iostream>
 #include <sstream>
 #include "keygen.hpp"
+#include "./lib/hash-library/sha256.h"
 
 class Transaction {
 private:
@@ -12,8 +13,6 @@ private:
     double amount;
 
     uint8_t signature[ECC_BYTES*2];
-
-    //std::string computeHash();
 
 public:
     Transaction(const std::string senderAddress_, const std::string receiverAddress_, const double amount_);

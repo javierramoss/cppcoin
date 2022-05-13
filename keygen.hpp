@@ -1,7 +1,7 @@
 #ifndef KEYGEN_HPP
 #define KEYGEN_HPP
 
-#include "./lib/easy-ecc/ecc.c"
+#include "./lib/easy-ecc/ecc.h"
 #include <sstream>
 #include <iomanip>
 

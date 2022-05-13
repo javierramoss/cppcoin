@@ -2,8 +2,8 @@
 #include <ctime>
 #include <vector>
 
-#include "keygen.cpp"
-#include "blockchain.cpp"
+#include "keygen.hpp"
+#include "blockchain.hpp"
 
 //Sample cryptographic keys #1
 //public key: 03acb20247769bbb3925d54ee017e2239f5c151647d7472300df163b2bc8568e0e
